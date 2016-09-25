@@ -10,6 +10,8 @@ status: Draft
 
 `CHRMN-PROT-SHIELD`は2.54mmピッチのユニバーサル基板シールドです。
 
+![image](board.png)
+
 ## design
 
 Eagle 7.3で作成しています。詳細は下記を参照ください。
