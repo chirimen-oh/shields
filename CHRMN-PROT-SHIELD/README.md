@@ -22,6 +22,7 @@ Eagle 7.3で作成しています。詳細は下記を参照ください。
 ### garber files
 
 [Elecrow](https://www.elecrow.com/)用に出力したgarberファイルです。
+2upデータにしてあります。10cm×10cmサイズで発注可能です。
 
 - [v0.1](./v0.1/forELECROW)
 
