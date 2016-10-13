@@ -3,7 +3,7 @@ shield name: CHRMN-PROT-SHIELD
 designer: D.F.Mac. (H.Kodama)
 version: 0.1
 date:2016.09.25
-status: Draft
+status: OK
 ---
 
 ## desc
