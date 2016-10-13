@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -126,23 +126,23 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="78.739734375" x2="0" y2="1.27" width="0" layer="20"/>
+<wire x1="48.3235" y1="4.445" x2="49.2125" y2="4.445" width="0" layer="20"/>
+<wire x1="49.2125" y1="4.445" x2="49.53" y2="4.1275" width="0" layer="20" curve="-90"/>
+<wire x1="49.53" y1="4.1275" x2="49.53" y2="1.27" width="0" layer="20"/>
+<wire x1="48.3235" y1="4.445" x2="48.006" y2="4.1275" width="0" layer="20" curve="90"/>
+<wire x1="48.006" y1="4.1275" x2="48.006" y2="1.27" width="0" layer="20"/>
+<wire x1="49.53" y1="78.74" x2="49.53" y2="6.6675" width="0" layer="20"/>
+<wire x1="49.53" y1="6.6675" x2="49.2125" y2="6.35" width="0" layer="20" curve="-90"/>
+<wire x1="49.2125" y1="6.35" x2="48.3235" y2="6.35" width="0" layer="20"/>
+<wire x1="48.3235" y1="6.35" x2="48.006" y2="6.6675" width="0" layer="20" curve="-90"/>
+<wire x1="48.006" y1="6.6675" x2="48.006" y2="78.74" width="0" layer="20"/>
+<wire x1="48.006" y1="78.74" x2="46.736" y2="80.01" width="0" layer="20"/>
+<wire x1="46.736" y1="80.01" x2="1.27" y2="80.01" width="0" layer="20"/>
+<wire x1="1.27" y1="80.01" x2="0" y2="78.74" width="0" layer="20"/>
+<wire x1="0" y1="78.74" x2="0" y2="1.27" width="0" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20"/>
 <wire x1="1.27" y1="0" x2="46.736" y2="0" width="0" layer="20"/>
 <wire x1="46.736" y1="0" x2="48.006" y2="1.27" width="0" layer="20"/>
-<wire x1="48.006" y1="1.27" x2="48.006" y2="4.0005" width="0" layer="20"/>
-<wire x1="48.006" y1="4.0005" x2="48.3235" y2="4.318" width="0" layer="20" curve="-90"/>
-<wire x1="48.3235" y1="4.318" x2="49.2125" y2="4.318" width="0" layer="20"/>
-<wire x1="49.2125" y1="4.318" x2="49.53" y2="4.0005" width="0" layer="20" curve="-90"/>
-<wire x1="49.53" y1="4.0005" x2="49.53" y2="1.27" width="0" layer="20"/>
-<wire x1="48.006" y1="78.730265625" x2="48.006" y2="6.6675" width="0" layer="20"/>
-<wire x1="48.006" y1="6.6675" x2="48.3235" y2="6.35" width="0" layer="20" curve="90"/>
-<wire x1="49.53" y1="78.739734375" x2="49.53" y2="6.6675" width="0" layer="20"/>
-<wire x1="49.53" y1="6.6675" x2="49.2125" y2="6.35" width="0" layer="20" curve="-90"/>
-<wire x1="49.2125" y1="6.35" x2="48.3235" y2="6.35" width="0" layer="20"/>
-<wire x1="48.006" y1="78.730265625" x2="46.736265625" y2="80.000265625" width="0" layer="20"/>
-<wire x1="46.736265625" y1="80.000265625" x2="1.270265625" y2="80.009734375" width="0" layer="20"/>
-<wire x1="1.270265625" y1="80.009734375" x2="0" y2="78.739734375" width="0" layer="20"/>
 <hole x="2.506" y="77.5" drill="2"/>
 <hole x="45.506" y="2.5" drill="2"/>
 <text x="4.191" y="31.115" size="1.016" layer="25" font="vector" rot="R90" align="center">1</text>
@@ -293,15 +293,17 @@
 <text x="4.191" y="77.47" size="1.016" layer="25" font="vector" rot="R90" align="center">CN2</text>
 <text x="43.942" y="77.47" size="1.016" layer="25" font="vector" rot="R90" align="center">CN1</text>
 <text x="43.942" y="77.47" size="1.016" layer="26" font="vector" rot="MR270" align="center">CN1</text>
-<text x="47.244" y="15.875" size="0.8128" layer="25" font="vector" rot="R90" align="center">CHRMN-PROT-SHIELD v0.1</text>
-<text x="47.244" y="15.875" size="0.8128" layer="26" font="vector" rot="MR270" align="center">CHRMN-PROT-SHIELD v0.1</text>
-<wire x1="49.53" y1="1.27" x2="50.8" y2="0" width="0" layer="20"/>
+<text x="47.244" y="15.875" size="0.8128" layer="25" font="vector" rot="R90" align="center">CHRMN-PROT-SHIELD v0.2</text>
+<text x="47.244" y="15.875" size="0.8128" layer="26" font="vector" rot="MR270" align="center">CHRMN-PROT-SHIELD v0.2</text>
+<text x="15.367" y="41.275" size="13.0048" layer="25" font="vector" rot="R90" align="center">front</text>
+<text x="31.369" y="39.243" size="13.0048" layer="26" font="vector" rot="MR270" align="center">back</text>
 <wire x1="50.8" y1="0" x2="96.266" y2="0" width="0" layer="20"/>
 <wire x1="96.266" y1="0" x2="97.536" y2="1.27" width="0" layer="20"/>
-<wire x1="97.536" y1="1.27" x2="97.536" y2="78.730265625" width="0" layer="20"/>
-<wire x1="97.536" y1="78.730265625" x2="96.266265625" y2="80.000265625" width="0" layer="20"/>
-<wire x1="96.266265625" y1="80.000265625" x2="50.800265625" y2="80.009734375" width="0" layer="20"/>
-<wire x1="50.800265625" y1="80.009734375" x2="49.53" y2="78.739734375" width="0" layer="20"/>
+<wire x1="97.536" y1="1.27" x2="97.536" y2="78.74" width="0" layer="20"/>
+<wire x1="97.536" y1="78.74" x2="96.266" y2="80.01" width="0" layer="20"/>
+<wire x1="96.266" y1="80.01" x2="50.8" y2="80.01" width="0" layer="20"/>
+<wire x1="50.8" y1="80.01" x2="49.53" y2="78.74" width="0" layer="20"/>
+<wire x1="49.53" y1="1.27" x2="50.8" y2="0" width="0" layer="20"/>
 <hole x="52.036" y="77.5" drill="2"/>
 <hole x="95.036" y="2.5" drill="2"/>
 <text x="53.721" y="31.115" size="1.016" layer="25" font="vector" rot="R90" align="center">1</text>
@@ -452,8 +454,10 @@
 <text x="53.721" y="77.47" size="1.016" layer="25" font="vector" rot="R90" align="center">CN2</text>
 <text x="93.472" y="77.47" size="1.016" layer="25" font="vector" rot="R90" align="center">CN1</text>
 <text x="93.472" y="77.47" size="1.016" layer="26" font="vector" rot="MR270" align="center">CN1</text>
-<text x="96.774" y="15.875" size="0.8128" layer="25" font="vector" rot="R90" align="center">CHRMN-PROT-SHIELD v0.1</text>
-<text x="96.774" y="15.875" size="0.8128" layer="26" font="vector" rot="MR270" align="center">CHRMN-PROT-SHIELD v0.1</text>
+<text x="96.774" y="15.875" size="0.8128" layer="25" font="vector" rot="R90" align="center">CHRMN-PROT-SHIELD v0.2</text>
+<text x="96.774" y="15.875" size="0.8128" layer="26" font="vector" rot="MR270" align="center">CHRMN-PROT-SHIELD v0.2</text>
+<text x="64.897" y="41.275" size="13.0048" layer="25" font="vector" rot="R90" align="center">front</text>
+<text x="80.899" y="39.243" size="13.0048" layer="26" font="vector" rot="MR270" align="center">back</text>
 </plain>
 <libraries>
 <library name="pinhead">
